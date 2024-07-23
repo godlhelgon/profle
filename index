@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<title>Alfred Shaju K - Profile</title>
+	<style>
+		* {
+			animation: fade-in 2s ease-in-out;
+		}
+		@keyframes fade-in {
+			from { opacity: 0; }
+			to { opacity: 1; }
+		}
+		body {
+			font-family: 'Raleway', sans-serif;
+			background-color: #fcfcfc;
+		}
+		.profile-container {
+			width: 80%;
+			margin: 0 auto;
+			padding: 3em;
+			background-color: #fff;
+			box-shadow: 0 0 15px rgba(0, 0, 0, 0.1);
+			border-radius: 10px;
+		}
+		.profile-header {
+			background-color: #8e44ad;
+			color: #fff;
+			padding: 2em;
+			text-align: center;
+			border-radius: 10px 10px 0 0;
+		}
+		.profile-content {
+			padding: 3em;
+		}
+		.profile-content h2 {
+			color: #8e44ad;
+		}
+		.folder {
+			animation: fade-in 2s ease-in-out;
+		}
+		@keyframes fade-in {
+			from { opacity: 0; }
+			to { opacity: 1; }
+		}
+	</style>
+</head>
+<body>
+	<div class="profile-container">
+		<div class="profile-header">
+			<h1>Alfred Shaju K</h1>
+		</div>
+		<div class="profile-content">
+			<div class="folder">
+				<h2>About Me</h2>
+				<p>Hello, I'm Alfred Shaju K from Ammadam, Thrissur.</p>
+			</div>
+			<div class="folder">
+				<h2>Education</h2>
+				<p>Completed 10th at Ammadam School, Thrissur and 12th at Chaldean Syrian, Thrissur.</p>
+				<p>Currently pursuing BCA in Cyber Security at Jain University, Bangalore.</p>
+			</div>
+			<div class="folder">
+				<h2>Family</h2>
+				<p>Father: Shaju Varghese</p>
+				<p>Mother: Shiny</p>
+				<p>Brother: Albert (PG student at Bangalore)</p>
+			</div>
+			<div class="folder">
+				<h2>Interests</h2>
+				<p>Playing football, gaming on phone, and more!</p>
+			</div>
+			<div class="folder">
+				<h2>Location</h2>
+				<p><a href="(link unavailable)" target="_blank">Ammadam, Thrissur, Kerala, India</a></p>
+			</div>
+		</div>
+	</div>
+</body>
+</html>
